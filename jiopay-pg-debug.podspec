@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "Jiopay-pg-debug"
-  spec.version      = "0.0.1"
+  spec.name         = "JIopay-pg-debug"
+  spec.version      = "0.0.2"
   spec.summary      = "Library for accessing Debug jiopay payment checkout"
   
   spec.description  = <<-DESC
