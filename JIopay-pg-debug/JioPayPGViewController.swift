@@ -13,6 +13,7 @@ import UIKit
 enum env {
     static let PP = "https://pp-checkout.jiopay.com:8443/"
     static let SIT = "http://psp-mandate-merchant-sit.jiomoney.com:3003/pg"
+    static let PROD = "https://checkout.jiopay.com"
 }
 
 enum jsEvents {
@@ -42,6 +43,7 @@ public class JioPayPGViewController: UIViewController {
     public var bodyBgColor: String = ""
     public var bodyTextColor: String = ""
     public var headingText: String = ""
+    public var environment: String = ""
     
     var parentReturnURL: String = ""
     var childReturnURL: String = ""
@@ -91,7 +93,16 @@ extension JioPayPGViewController: WKScriptMessageHandler, WKUIDelegate {
     }
     
     public func loadWebView() {
-        let url = URL (string: env.SIT)
+        var envUrl = ""
+        if environment == "SIT" {
+            envUrl = env.SIT
+        }else if environment == "PP"{
+            envUrl = env.PP
+        }else {
+            envUrl = env.PROD
+        }
+        
+        let url = URL (string: envUrl)
         let request = NSMutableURLRequest(url: url!)
         request.httpMethod = "POST"
         request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
