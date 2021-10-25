@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   # spec.authors            = { "Prashant Dwivedi" => "prashant1.dwivedi@ril.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "14.0"
+  spec.ios.deployment_target = "12.0"
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/jiopay/jiopay-pg-debug.git", :tag => "#{spec.version}" }
