@@ -81,7 +81,8 @@ extension JioPayPGViewController: WKScriptMessageHandler, WKUIDelegate {
     webConfiguration.userContentController = contentController
     
     webView = WKWebView(frame: popupWebViewContainer.bounds, configuration: webConfiguration)
-    webView.configuration.defaultWebpagePreferences.allowsContentJavaScript = true
+//    webView.configuration.defaultWebpagePreferences.allowsContentJavaScript = true
+    webView.configuration.preferences.javaScriptEnabled = true
     webView.configuration.preferences.javaScriptCanOpenWindowsAutomatically = true
     webView.configuration.preferences.setValue(true, forKey: "allowFileAccessFromFileURLs")
     webView.allowsBackForwardNavigationGestures = true
