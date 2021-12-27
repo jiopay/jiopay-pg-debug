@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A0F8BBF426D7802F00D1AE36 /* JIopay_pg_debug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F8BBEA26D7802F00D1AE36 /* JIopay_pg_debug.framework */; };
 		A0F8BBF926D7802F00D1AE36 /* JIopay_pg_debugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F8BBF826D7802F00D1AE36 /* JIopay_pg_debugTests.swift */; };
-		A0F8BBFB26D7802F00D1AE36 /* JIopay_pg.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F8BBED26D7802F00D1AE36 /* JIopay_pg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F8BBFB26D7802F00D1AE36 /* Jiopay_pg.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F8BBED26D7802F00D1AE36 /* Jiopay_pg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0F8BC0826D7AA5B00D1AE36 /* JioPayPGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F8BC0626D7AA5B00D1AE36 /* JioPayPGViewController.swift */; };
 		A0F8BC0926D7AA5B00D1AE36 /* JioPayPGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F8BC0726D7AA5B00D1AE36 /* JioPayPGViewController.xib */; };
 /* End PBXBuildFile section */
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		A0F8BBEA26D7802F00D1AE36 /* JIopay_pg_debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JIopay_pg_debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0F8BBED26D7802F00D1AE36 /* JIopay_pg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JIopay_pg.h; sourceTree = "<group>"; };
+		A0F8BBED26D7802F00D1AE36 /* Jiopay_pg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jiopay_pg.h; sourceTree = "<group>"; };
 		A0F8BBEE26D7802F00D1AE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F8BBF326D7802F00D1AE36 /* JIopay-pg-debugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JIopay-pg-debugTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F8BBF826D7802F00D1AE36 /* JIopay_pg_debugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIopay_pg_debugTests.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		A0F8BBEC26D7802F00D1AE36 /* JIopay-pg-debug */ = {
 			isa = PBXGroup;
 			children = (
-				A0F8BBED26D7802F00D1AE36 /* JIopay_pg.h */,
+				A0F8BBED26D7802F00D1AE36 /* Jiopay_pg.h */,
 				A0F8BBEE26D7802F00D1AE36 /* Info.plist */,
 				A0F8BC0626D7AA5B00D1AE36 /* JioPayPGViewController.swift */,
 				A0F8BC0726D7AA5B00D1AE36 /* JioPayPGViewController.xib */,
@@ -99,7 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F8BBFB26D7802F00D1AE36 /* JIopay_pg.h in Headers */,
+				A0F8BBFB26D7802F00D1AE36 /* Jiopay_pg.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
