@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JIopay-pg-debug"
-  spec.version      = "0.0.11"
+  spec.version      = "0.0.12"
   spec.summary      = "Library for accessing Debug jiopay payment checkout"
   
   spec.description  = <<-DESC
@@ -19,8 +19,8 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/jiopay/jiopay-pg-debug.git", :tag => "#{spec.version}" }
-  spec.source_files  = "jiopay-pg-debug/**/*.{h,m,swift}"
-  spec.resources = "jiopay-pg-debug/**/*.{xib}"
+  spec.source_files  = "JIopay-pg-debug/**/*.{h,m,swift}"
+  spec.resources = "JIopay-pg-debug/**/*.{xib}"
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 end
